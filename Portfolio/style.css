@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+
+.navbar{
+    height: 100px;
+    width: 80%;
+    background-color:rgba(243, 237, 237, 0.352);
+    border-radius: 30px;
+    background-size:cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 0px;
+    position: sticky;
+
+}
+
+.nav-logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid white;
+    margin-left: 40px;
+}
+
+.nav-logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 35%;
+} 
+
+.nav-logo span{
+    color: black;
+}
+
+.nav-logo h1 {
+    font-size: 2.3rem;
+    font-weight: 700;
+    color: #1b686e;
+    margin-left: 10px;
+
+}
+
+.nav-links{
+    display: flex;
+    width: 40%;
+    justify-content: space-evenly;
+}
+
+.nav-links a{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: black;
+    transition: all 0.5s;
+}
+
+.nav-links a:hover{
+    color: red;
+    font-size: 2rem;
+}
+
+.home-logo img {
+    width: 500px;
+    height: 500px;
+    border-radius:50% ;
+}
+
+.home {
+    background-color: gray;
+    background-size: cover;
+    height: 100vh;
+}
+
+.home-logo{
+    width: 40%;
+    margin-top: 10px;
+}
+
+.container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.home-content{
+    width: 60%;
+    margin-left: 25px;
+}
+
+.home-content h1{
+    font-size: 4rem;
+}
+
+.home-content span{
+    color: #1b686e;
+    font-family: serif;
+}
+
+.home-content p {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-top: 8px;
+}
+
+.btn {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-top: 50px;
+    width: 203px;
+    height: 45px;
+    background: none;
+    background-color: #1b686e;
+    border-radius: 10px;
+    border: none;
+    text-transform: uppercase ;
+    transition: all 0.5 ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    width:250px;
+    height: 55px;
+}
+
+/* -----------skills-------------- */
+
+.container1{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 90vh;
+}
+
+.card{
+    width: 400px;
+    height: 500px;
+    background-color: rgba(43, 42, 42, 0.256);
+    border-radius: 20px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+}
+
+.part1 img , .part2 img , .part3 img {
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.part1 p , .part2 p , .part3 p{
+    margin: 10px;
+    font-size: 1.3rem;
+    font-weight: 400;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.part1:hover{
+    border: 16px solid #1b686e;
+    transform: scale(1);
+}
+.part2:hover{
+    border: 16px solid #1b686e;
+    transform: scale(1);
+}
+.part3:hover{
+    border: 16px solid #1b686e;
+    transform: scale(1);
+}
+
+.skills{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 2rem;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+    height: 90vh;
+}
+
+.achivements h1{
+    margin-left: 10px;
+    font-size: 3rem;
+}
+
+.achiv1 img , .achiv2 img , .achiv3 img{
+    width: 360px;
+    height: 230px;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.achiv1 img:hover {
+    transform: scale(1.2);
+}
+
+.achiv2 img:hover{
+    transform: scale(1.2);
+}
+
+.achiv3 img:hover {
+    transform: scale(1.2);
+}
+
+.achiv1 h2, .achiv2 h2 , .achiv3 h2 {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 1.6rem;
+}
+
+.achiv1 p , .achiv2 p , .achiv3 p{
+    font-size: 1.1rem;
+    margin-left: 10px;
+    margin-top: 5px;
+
+}
+
+.achiv1 , .achiv2 , .achiv3{
+    background-color: white;
+}
+
+.achivements {
+    margin-top: 10px;
+    background-color: gray;
+}
+
+.container3 {
+    margin: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    height: 90vh;
+}
+
+.awards1 img, .awards2 img, .awards3 img {
+    width: 350px;
+    height: 230px;
+    margin-top: 15px;
+    margin-left: 17px;
+    border-radius: 20px;
+}
+
+.awards{
+    margin-top: 25px;
+}
+
+.awards1 h2, .awards2 h2, .awards3 h2{
+    font-size: 1.6rem;
+    margin-left: 10px;
+    margin-top: 10px;
+} 
+
+.awards1 p, .awards2 p, .awards3 p{
+    font-size: 1.2rem;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+
+
+
+
